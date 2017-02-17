@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>花瓣网</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="js/jquery-2.0.3.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+<div class="header_top">
+    <div class="wrapper" id="wrapper">
+        <div class="header_t_l" id="header_t_l">
+            <a id="logo"></a>
+            <ul>
+                <li><a href="#" target="_blank">发现</a></li>
+                <li><a href="#" target="_blank">最新</a></li>
+                <li><a href="#" target="_blank">美思</a><span class="new"></span></li>
+                <li><a href="#" target="_blank">教育</a></li>
+            </ul>
+            <div class="more">
+                <div id="more_div">
+
+                </div>
+            </div>
+        </div>
+        <div class="header_t_c">
+            <div class="search">
+                <input id="search" type="text" value="搜索你喜欢的..." name=""
+                       onblur="if(this.value==''){this.value='搜索你喜欢的...';}"
+                       onfocus="if(this.value=='搜索你喜欢的...'){this.value='';}"/>
+                <a id="go" class="go"></a>
+            </div>
+        </div>
+        <div class="header_t_r" id="header_t_r">
+            <p><input class="rbtn mar_r10" type="button" value="登录"/><input class="btn" type="button" value="注册"/></p>
+        </div>
+
+    </div>
+</div>
+<div class="banner">
+    <div class="banner_bg" style="background-color: rgb(2, 28, 30);">
+        <div class="bg-gradient"
+             style="background: transparent linear-gradient(to right, rgb(2, 28, 30) 0%, rgba(2, 28, 30, 0) 0%, rgba(2, 28, 30, 0) 0%, rgb(2, 28, 30) 30%, rgb(2, 28, 30) 100%) repeat scroll 0% 0%;"></div>
+        <img src="img/10x1.jpg" data-baiduimageplus-ignore="1" class="bg-img load" id="bg-img" style="left: -60px;">
+    </div>
+    <div class="banner_cont">
+        <div class="title">古风海报</div>
+        <div class="follow mar_b15"><input class="btn rbtn" type="button" value="关注"/></div>
+        <div class="info">古风以中国的传统文化为基调，结合中国传统的文学、琴棋书画、诗词歌赋等，经过不断的发展磨合，形成了比较完备的音乐、文学、绘画等艺术形式。</div>
+        <div class="follow_title"><span></span> Ta 们已关注</div>
+        <div class="follows">
+            <a href="#"><img src="img/banner_icon1.jpg" alt=""></a>
+            <a href="#"><img src="img/banner_icon2.jpg" alt=""></a>
+            <a href="#"><img src="img/banner_icon3.jpg" alt=""></a>
+            <a href="#"><img src="img/banner_icon4.jpg" alt=""></a>
+            <a href="#"><img src="img/banner_icon5.jpg" alt=""></a>
+            <a href="#"><img src="img/banner_icon6.jpg" alt=""></a>
+        </div>
+    </div>
+</div>
+<div class="more_explore">
+    <div class="explore_title"><span class="icon ex_more"></span>更多发现</div>
+    <div class="module">
+        <a href="#">
+            <div class="blur"><img src="img/module.jpg" ></div>
+            <div class="title">设计配色</div>
+        </a>
+    </div>
+    <div class="module">
+        <a href="#">
+            <div class="blur"><img src="img/module2.jpg" ></div>
+            <div class="title">设计配色</div>
+        </a>
+    </div>
+    <div class="module">
+        <a href="#">
+            <div class="blur"><img src="img/module3.jpg" ></div>
+            <div class="title">设计配色</div>
+        </a>
+    </div>
+    <div class="module">
+        <a href="#">
+            <div class="blur"><img src="img/module4.jpg" ></div>
+            <div class="title">设计配色</div>
+        </a>
+    </div>
+    <div class="module">
+        <a href="#">
+            <div class="blur"><img src="img/module.jpg" ></div>
+            <div class="title">设计配色</div>
+        </a>
+    </div>
+</div>
+<div id="creat_wrapper" class="creat_wrapper">
+    <ul>
+        <li>
+            <a href="#"><img src="img/index/1.jpg" alt=""></a>
+            <p class="description"><a href="">#水彩#</a></p>
+            <p class="stats">
+                <span title="转采" class="repin"><i></i>2674</span>
+                <span title="喜欢" class="like"><i></i>629</span>
+                <span title="评论" class="comment"><i></i>15</span>
+            </p>
+            <div class="convo">
+                <a href="#" title="庸人°" rel="nofollow" class="img"><img src="img/index/portrait1.png" class="avt"></a>
+                <div class="text">
+                    <div class="inner">
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="author x">庸人°</a>&nbsp;采集到
+                        </div>
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="x">繪· 筆尖藝術</a>
+                        </div>
+                        <a title="评论" class="replyButton"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="convo comments">
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait2.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait3.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait4.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#"><img src="img/index/2.jpg" alt=""></a>
+            <p class="description"><a href="">#水彩#</a></p>
+            <p class="stats">
+                <span title="转采" class="repin"><i></i>2674</span>
+                <span title="喜欢" class="like"><i></i>629</span>
+                <span title="评论" class="comment"><i></i>15</span>
+            </p>
+            <div class="convo">
+                <a href="#" title="庸人°" rel="nofollow" class="img"><img src="img/index/portrait1.png" class="avt"></a>
+                <div class="text">
+                    <div class="inner">
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="author x">庸人°</a>&nbsp;采集到
+                        </div>
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="x">繪· 筆尖藝術</a>
+                        </div>
+                        <a title="评论" class="replyButton"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="convo comments">
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait2.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait3.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait4.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#"><img src="img/index/3.jpg" alt=""></a>
+            <p class="description"><a href="">#水彩#</a></p>
+            <p class="stats">
+                <span title="转采" class="repin"><i></i>2674</span>
+                <span title="喜欢" class="like"><i></i>629</span>
+                <span title="评论" class="comment"><i></i>15</span>
+            </p>
+            <div class="convo">
+                <a href="#" title="庸人°" rel="nofollow" class="img"><img src="img/index/portrait1.png" class="avt"></a>
+                <div class="text">
+                    <div class="inner">
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="author x">庸人°</a>&nbsp;采集到
+                        </div>
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="x">繪· 筆尖藝術</a>
+                        </div>
+                        <a title="评论" class="replyButton"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="convo comments">
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait2.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait3.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait4.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#"><img src="img/index/4.jpg" alt=""></a>
+            <p class="description"><a href="">#水彩#</a></p>
+            <p class="stats">
+                <span title="转采" class="repin"><i></i>2674</span>
+                <span title="喜欢" class="like"><i></i>629</span>
+                <span title="评论" class="comment"><i></i>15</span>
+            </p>
+            <div class="convo">
+                <a href="#" title="庸人°" rel="nofollow" class="img"><img src="img/index/portrait1.png" class="avt"></a>
+                <div class="text">
+                    <div class="inner">
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="author x">庸人°</a>&nbsp;采集到
+                        </div>
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="x">繪· 筆尖藝術</a>
+                        </div>
+                        <a title="评论" class="replyButton"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="convo comments">
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait2.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait3.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait4.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <ul>
+        <li>
+            <a href="#"><img src="img/index/1.jpg" alt=""></a>
+            <p class="description"><a href="">#水彩#</a></p>
+            <p class="stats">
+                <span title="转采" class="repin"><i></i>2674</span>
+                <span title="喜欢" class="like"><i></i>629</span>
+                <span title="评论" class="comment"><i></i>15</span>
+            </p>
+            <div class="convo">
+                <a href="#" title="庸人°" rel="nofollow" class="img"><img src="img/index/portrait1.png" class="avt"></a>
+                <div class="text">
+                    <div class="inner">
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="author x">庸人°</a>&nbsp;采集到
+                        </div>
+                        <div class="line">
+                            <a href="#" rel="nofollow" class="x">繪· 筆尖藝術</a>
+                        </div>
+                        <a title="评论" class="replyButton"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="convo comments">
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait2.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait3.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+                <div class="comment">
+                    <a href="#" title="虫子819" class="img x">
+                        <img src="img/index/portrait4.jpg" data-baiduimageplus-ignore="1" class="avt">
+                    </a>
+                    <div class="content">
+                        <a href="#">虫子819</a>:&nbsp;真不错
+                    </div>
+                    <a title="回复" class="replyButton"></a>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="floating">
+    <div class="floating_wrap">
+        <div class="title">国内最优质图片灵感库</div>
+        <div class="sub-title">已有数百万出众网友，用花瓣保存喜欢的图片。</div>
+        <!--<div class="floating-login">
+            <span class="words">用社交帐号直接登录：</span>
+            <a href="#" onclick="return false;" class="weibo"></a><a href="#" onclick="return false" class="qzone"></a><a href="#" onclick="return false;" title="豆瓣帐号登录" class="douban"></a><a href="#" onclick="return false;" title="人人帐号登录" style="margin-right: 0" class="renren"></a>
+        </div>-->
+        <div class="bshare-custom bshare-custom1"><div class="bsPromo bsPromo2"></div><span>用社交帐号直接登录：</span><a title="分享到新浪微博" class="bshare-sinaminiblog" href="javascript:void(0);"></a><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到豆瓣" class="bshare-douban" href="javascript:void(0);"></a></div>
+        <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/buttonLite.js#style=-1&amp;uuid=&amp;pophcol=2&amp;lang=zh"></script>
+        <script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+    </div>
+</div>
+<div class="right_btn">
+    <a href="javascript:;" id="btn"></a>
+</div>
+</body>
+</html>
